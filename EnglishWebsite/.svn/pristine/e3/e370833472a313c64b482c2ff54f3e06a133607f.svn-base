@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Indoor positioning solutions</title>
+  <link rel="stylesheet" href="../assets/css/amazeui.css" />
+  <link rel="stylesheet" href="../assets/css/common.min.css" />
+  <link rel="stylesheet" href="../assets/css/product.min.css" />
+</head>
+<body>
+  <div class="layout">
+    <!--===========layout-header================-->
+ <div class="layout-header am-hide-sm-only">
+      <!--topbar start-->
+      <div class="topbar">
+        <div class="container">
+          <div class="am-g">
+            <div class="am-u-md-3">
+              <div class="topbar-left">
+                <i class="am-icon-globe"></i>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-primary am-dropdown-toggle" data-am-dropdown-toggle>Language <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="#">English</a></li>
+                    <li class="am-divider"></li>
+                    <li><a href="http://www.intmote.com">Chinese</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="am-u-md-9">
+              <div class="topbar-right am-text-right am-fr">
+                Follow us
+                <i class="am-icon-facebook"></i>
+                <i class="am-icon-twitter"></i>
+                <i class="am-icon-google-plus"></i>
+                <i class="am-icon-pinterest"></i>
+                <i class="am-icon-instagram"></i>
+                <i class="am-icon-linkedin"></i>
+                <i class="am-icon-youtube-play"></i>
+                <i class="am-icon-rss"></i>
+                <!--<a href="./login.html">登录</a>
+                <a href="./register.html">注册</a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--topbar end-->
+
+      <div class="header-box" data-am-sticky>
+        <!--header start-->
+          <div class="container">
+            <div class="header">
+              <div class="am-g">
+                <div class="am-u-lg-2 am-u-sm-12">
+                  <div class="logo">
+                    <a href=""><img src="../assets/images/logo.png" alt="" /></a>
+                  </div>
+                </div>
+                <div class="am-u-md-10">
+                  <div class="header-right am-fr">
+                    <div class="header-contact">
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-phone"></i>
+  												<strong>021-64361545</strong>
+  												<span>Monday ~ Friday, 9:00-18:00</span>
+  											</div>
+  										</div>
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-envelope-o"></i>
+  												<strong>mote_hr@intmote.com</strong>
+  												<span>Your letter is welcome at any time!</span>
+  											</div>
+  										</div>
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-map-marker"></i>
+  												<strong>everbright exhibition</strong>
+  												<span>Xuhui district cao bao road</span>
+  											</div>
+  										</div>
+                    </div>
+                    <a href="" class="contact-btn">
+                      <button type="button" class="am-btn am-btn-secondary am-radius">Contact us</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--header end-->
+
+
+        <!--nav start-->
+        <div class="nav-contain">
+          <div class="nav-inner">
+            <ul class="am-nav am-nav-pills am-nav-justify">
+              <li class=""><a href="../index.html">Home page</a></li>
+              <li>
+                <a href="./product1.html">Product center</a>
+                <!-- sub-menu start-->
+                <ul class="sub-menu">
+									<!--<li class="menu-item"><a href="">Product display 1</a></li>-->
+									
+								</ul>
+                <!-- sub-menu end-->
+              </li>
+              <li><a href="./example.html">Customer case</a></li>
+              <li><a href="./solution.html">Solution</a></li>
+              <li>
+                <a href="./news.html">News center</a>
+                <!-- sub-menu start-->
+                
+                <!-- sub-menu end-->
+              </li>
+              <li><a href="./about.html">About us</a></li>
+              <li><a href="./join.html">Join us</a></li>
+              <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--nav end-->
+      </div>
+
+    </div>
+    
+    
+    <!--mobile header start-->
+    <div class="m-header">
+      <div class="am-g am-show-sm-only">
+        <div class="am-u-sm-2">
+          <div class="menu-bars">
+            <a href="#doc-oc-demo1" data-am-offcanvas="{effect: 'push'}"><i class="am-menu-toggle-icon am-icon-bars"></i></a>
+            <!-- 侧边栏内容 -->
+            <nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas >
+              <a href="javascript: void(0)" class="am-menu-toggle"></a>
+
+              <div class="am-offcanvas" >
+                <div class="am-offcanvas-bar">
+                  <ul class="am-menu-nav am-avg-sm-1">
+                    <li><a href="../index.html" class="" >Home page</a></li>
+                    <li class="">
+                      <a href="./product1.html" class="" >Product center</a>
+                      <ul class="am-menu-sub am-collapse ">
+                        <!--<li class="">
+                          <a href="" class="" >Product display 1</a>
+                        </li>-->
+                      
+                      </ul>
+                    </li>
+                    <li class=""><a href="./example.html" class="" >Customer case</a></li>
+                    <li class=""><a href="./solution.html" class="" >Solution</a></li>
+                    <li class="">
+                      <a href="./news.html" class="" >News center</a>
+                     
+                    </li>
+                    <li class=""><a href="./about.html" class="" >About us</a></li>
+                    <li class=""><a href="./join.html" class="" >Join us</a></li>
+                    <li class=""><a href="./contact.html" class="" >Contact us</a></li>
+                    <li class="am-parent">
+                      <a href="./news.html" class="nav-icon nav-icon-globe" >Language</a>
+                      <ul class="am-menu-sub am-collapse  ">
+                        <li>
+                          <a href="#" >English</a>
+                        </li>
+                        <li class="">
+                          <a href="http://www.intmote.com" >Chinese</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-share-contain">
+                      <div class="nav-share-links">
+                        <i class="am-icon-facebook"></i>
+                        <i class="am-icon-twitter"></i>
+                        <i class="am-icon-google-plus"></i>
+                        <i class="am-icon-pinterest"></i>
+                        <i class="am-icon-instagram"></i>
+                        <i class="am-icon-linkedin"></i>
+                        <i class="am-icon-youtube-play"></i>
+                        <i class="am-icon-rss"></i>
+                      </div>
+                    </li>
+                   
+                  </ul>
+
+                </div>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+        <div class="am-u-sm-5 am-u-end">
+          <div class="m-logo">
+            <a href=""><img src="../assets/images/logo.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!--mobile header end-->
+    </div>
+
+
+
+
+
+    <!--===========layout-container================-->
+    <div class="layout-container">
+      <!--product1-page start-->
+      <div class="product1-page"   >
+        <div class="container">
+          <div data-am-widget="slider" class="am-slider am-slider-b3" data-am-slider='{"animation":"slide","slideshow":true}' >
+            <ul class="am-slides">
+                <li>
+                  <div class="product-banner-box">
+                    <h2>Intelligent bracelet </h2>
+                    <p>Anycool  Smart bracelet, designed for specific users, can be customized. </p>
+                   <!-- <button type="button" class="am-btn am-btn-secondary am-round">了解更多</button>-->
+                  </div>
+                </li>
+                <li>
+                  <div class="product-banner-box">
+                    <h2>Positioning system (GPS) </h2>
+                    <p>Anylink   The positioning system is based on WIFI network and bluetooth beacon, which adopts the industry-leading positioning algorithm and supports multiple positioning methods.  </p>
+                    
+                  </div>
+                </li>
+                <li>
+                  <div class="product-banner-box">
+                    <h2>3D   Indoor map </h2>
+                    <p>Anyreal  Indoor map, can connect with the outdoor navigation map seamlessly, and achieve the perfect switch. </p>
+                    
+                  </div>
+                </li>
+                <li>
+                  <div class="product-banner-box">
+                    <h2>Wireless AP and Beacon </h2>
+                    <p>Anycute  Series of bluetooth, wireless AP and to provide various types of construction cost performance excellent positioning network, different network scheme to meet the needs of different application scenarios, provide good customer service experience, improving operation value. </p>
+                    
+                  </div>
+                </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <!--product1-page end-->
+
+      <!--product-login start-->
+     
+      <!--product-login end-->
+    </div>
+
+
+
+
+
+
+
+ 
+
+
+
+
+<!--
+	作者：offline
+	时间：2017-06-23
+	描述：产品
+	
+-->
+  <div class="section"  style="padding: 50px 0;">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">Intelligent bracelet</h2>
+					<p class="section--description"  style="margin-bottom:30px;">
+				Anycool smart bracelet, designed for specific users, can be customized on demand. 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-g">
+              
+            </ul>
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!--智能手环-->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/prodwatch001-1.png"  style="display:block; width:100%;height:100%;" alt="">
+                    
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                    &nbsp; &nbsp; The new generation of smart positioning bracelet, wisdom is more secure   <br />
+                 &nbsp; &nbsp;   GNSS/WIFI/bluetooth/inertial navigation  <br />
+                  &nbsp; &nbsp;  Magnetic charging position binding emergency call intelligent speech interpretation touch payment  <br />
+                  &nbsp; &nbsp;   Health monitoring, location triggered voice broadcast <br />
+                   &nbsp; &nbsp;Low power consumption wireless positioning, low power automatic reminder  <br />
+                   &nbsp; &nbsp;Dustproof, anti-fall, high water proof  <br />
+                   &nbsp; &nbsp;Adopt environmental protection material, accord with human body engineering design 
+                   </div>
+                 </div>
+
+              </div>
+          </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    
+   <!-- 定位系统-->
+     <div class="section" style="padding: 50px 0;">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">Positioning system (GPS) </h2>
+					<p class="section--description"  style="margin-bottom:30px;">
+					The Anylink positioning system is based on WIFI and bluetooth beacons, and USES industry-leading positioning algorithms to support multiple location-based approaches. 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-g">
+              
+           
+              
+            </ul>
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!--定位系统-->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/ditu03.png"  style="display:block; width:100%;height:100%;" alt="">
+                    
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                    &nbsp; &nbsp; Adopt international leading indoor and external positioning technology    <br />
+                 &nbsp; &nbsp;   Support WIFI bluetooth GNSS multiple ways to locate and support inertial navigation  <br />
+                  &nbsp; &nbsp;  Automatically adapt and switch location according to the change of environment  <br />
+                  &nbsp; &nbsp;  The precision reaches the international leading level, indoor can reach 1-3m, outdoor can reach 3-10M <br />
+                   &nbsp; &nbsp;No need to collect signal, construction is simple, help customers to achieve the expectation with the lowest cost  <br />
+                  
+                   </div>
+                 </div>
+
+              </div>
+          </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!--3d室内地图-->
+    <div class="section" style="padding: 50px 0;">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">3D interior map </h2>
+					<p class="section--description" style="margin-bottom:30px;">
+					Anyreal indoor map can seamlessly connect with the outdoor navigation map and realize the perfect switch 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-g">
+              
+           
+              
+            </ul>
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!---->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/map417.png"  style="display:block; width:100%;height:100%;" alt="">
+                    
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                    &nbsp; &nbsp;The accuracy of the map is high, with an average accuracy of 10CM  <br/>
+                     &nbsp; &nbsp;Use vector map format to zoom in and out without impact   <br/>
+                      &nbsp; &nbsp;Use 3D map format to show more image   <br/>
+                       &nbsp; &nbsp;Adopt international WGS84 standard   <br/>
+                        &nbsp; &nbsp; The map is rich in color and can be adjusted or customized according to demand  <br/>
+                        &nbsp; &nbsp;POI is rich and can be set by itself    <br/>
+                         &nbsp; &nbsp;The map has the functions of query positioning, route planning and navigation   <br/>
+                        
+                   </div>
+                 </div>
+
+              </div>
+          </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--无线蓝牙-->
+    <div class="section" style="padding: 50px 0;">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">Wireless AP and Beacon </h2>
+					<p class="section--description"  style="margin-bottom:30px;">
+					Series Anycute, bluetooth, wireless AP and for each type of construction to provide cost-effective superior location network, different network scheme to meet the needs of different application scenarios, provide good customer service experience, improving operation value. 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-g">
+              
+           
+              
+            </ul>
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!---->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/06/beco.png"  style="display:block; width:100%;height:100%;" alt="">
+                    
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                   &nbsp; &nbsp; High quality wireless signal, anti-interference, wide application scope <br/>
+                     &nbsp; &nbsp; Support for voice and data transmission; Using radio technology, the transmission range is large  <br/>
+                      &nbsp; &nbsp; It is easy to eavesdrop on the frequency - hopping technology.  <br/>
+                       &nbsp; &nbsp;Support long talk, support equipment short distance communication   <br/>
+                        &nbsp; &nbsp;It is widely used in various telephone systems, wireless cables, digital electronic devices and other fields   <br/>
+                   </div>
+                 </div>
+
+              </div>
+          </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    
+      <!--大数据-->
+    <div class="section" style="padding: 50px 0;">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">Big data analysis system </h2>
+					<p class="section--description"  style="margin-bottom:30px;">
+					Anycloud data analysis system, to deep mining of user behavior, the location data, through the large data of the abstract data into charts and conclusion, help operators use data to improve the efficiency of management. 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-g">
+              
+           
+              
+            </ul>
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!---->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/shuuj01.png" style="display:block; width:100%;height:100%;" alt="">
+                    
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                    &nbsp; &nbsp;Real-time passenger flow statistics, passenger flow, average stay time, new and old customer analysis  <br/>
+                     &nbsp; &nbsp;The hot map shows the instantaneous flow and the analysis of the situation of the area   <br/>
+                      &nbsp; &nbsp; Analysis regional point value based on the area point traffic and conversion rate  <br/>
+                       &nbsp; &nbsp; Automatic analysis of the impact of abortion, the proportion of new and old customers  <br/>
+                        &nbsp; &nbsp;The client provides customer conversion rate and retention time   <br/>
+                   </div>
+                 </div>
+
+              </div>
+          </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="section" style="padding: 50px 0;">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">Electronic tags </h2>
+					<p class="section--description" style="margin-bottom:30px;">
+				Anycool electronic tag provides customers with electronic labels for different areas and provides customization 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-g">
+              
+           
+              
+            </ul>
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!---->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/prodcard001.png"  style="display:block; width:100%;height:100%;" alt="">
+                    
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                     &nbsp; &nbsp; We provide electronic positioning tags for customers in various fields <br/>
+                     &nbsp; &nbsp;Provide customized products according to customer requirements   <br/>
+                      &nbsp; &nbsp;To manage and manage the warehouse management   <br/>
+                       &nbsp; &nbsp;Can play the role of identifying, tracking and gathering information   <br/>
+                        &nbsp; &nbsp;The label has a type of card, wristband   <br/>
+                   </div>
+                 </div>
+
+              </div>
+          </div>  
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+
+
+
+    <div class="section" style="margin-top:0px;background-image: url('../assets/images/pattern-light.png');">
+    <div class="container">
+      <!--index-container start-->
+      <div class="index-container">
+        <div class="am-g">
+          <div class="am-u-md-4">
+            <div class="contact_card">
+							<i style="color:#59bcdb" class="contact_card--icon am-icon-phone"></i>
+							<strong class="contact_card--title">Contact Us</strong>
+							<p class="contact_card--text">Feel free to call us on <br> <strong> 021-64361545</strong> <br> Monday - Friday, 9am - 6pm</p>
+              <button type="button" class="am-btn am-btn-secondary">Order a Call Back</button>
+						</div>
+          </div>
+          <div class="am-u-md-4">
+            <div class="contact_card">
+							<i style="color:#59bcdb" class="contact_card--icon am-icon-envelope-o"></i>
+							<strong class="contact_card--title">Our Email</strong>
+							<p class="contact_card--text">Drop us a line anytime at <br> <strong><a href="#">mote_hr@intmote.com</a>,</strong> <br> and we’ll get back soon.</p>
+              <button type="button" class="am-btn am-btn-secondary">Start Writing</button>
+						</div>
+          </div>
+          <div class="am-u-md-4">
+            <div class="contact_card">
+							<i style="color:#59bcdb" class="contact_card--icon am-icon-map-marker"></i>
+							<strong class="contact_card--title">Our Address</strong>
+							<p class="contact_card--text">Come visit us at <br> <strong>everbright convention center </strong> <br> xuhui district, Shanghai </p>
+              <button type="button" class="am-btn am-btn-secondary">See the Map</button>
+						</div>
+          </div>
+        </div>
+      </div>
+      <!--index-container end-->
+    </div>
+  </div>
+
+
+
+    <!--===========layout-footer================-->
+    <div class="layout-footer">
+      <div class="footer">
+        <div style="background-color:#464646" class="footer--bg"></div>
+        <div class="footer--inner">
+          <div class="container">
+            <div class="footer_main">
+              <div class="am-g">
+                 <div class="am-u-md-3 ">
+                <div class="footer_main--column">
+                  <strong class="footer_main--column_title">About us</strong>
+                  <div class="footer_about">
+                      <p class="footer_about--text">
+                        	Lloyds (Shanghai) Internet science and technology co., LTD., professional from things networking application solutions, and within the industry's leading WIFI positioning solution and the location data provider;
+                      </p>
+                      <p class="footer_about--text">
+                        Overseas, in a very short period of time by the government authorities and the international famous IT companies, industry recognition, has won many important qualifications to draw attention of the industry.
+                      </p>
+                    </div>
+                </div>
+              </div>
+
+                <div class="am-u-md-3 ">
+                <div class="footer_main--column">
+                  <strong class="footer_main--column_title">product center</strong>
+                  <ul class="footer_navigation">
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycool smart bracelet</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anylink positioning system</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anyreal Indoor map</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycute The wireless AP and bluetooth</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycloud  Data analysis system</a></li>
+										  <li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycool Electronic tags</a></li>
+										</ul>
+                </div>
+              </div>
+              
+
+                <div class="am-u-md-3 ">
+                  <div class="footer_main--column">
+										<strong class="footer_main--column_title">Technical support</strong>
+										<ul class="footer_navigation">
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Nursing home solutions</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Logistics solutions</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Solution of the scenic spot</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Market solutions</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Hospital solution</a></li>
+										</ul>
+									</div>
+                </div>
+
+                 <div class="am-u-md-3 ">
+                  <div class="footer_main--column">
+										<strong class="footer_main--column_title">Contact details</strong>
+										<ul class="footer_contact_info">
+											<li class="footer_contact_info--item"><i class="am-icon-phone"></i><span>Service special line： 021-64361545</span></li>
+											<li class="footer_contact_info--item"><i class="am-icon-envelope-o"></i><span>mote_hr@intmote.com</span></li>
+											<li class="footer_contact_info--item"><i class="am-icon-map-marker"></i><span>cao bao road, xuhui district, Shanghai everbright convention &exhibition center F, room 2201</span></li>
+											
+										</ul>
+									</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/js/jquery-2.1.0.js" charset="utf-8"></script>
+  <script src="../assets/js/amazeui.js" charset="utf-8"></script>
+</body>
+
+</html>

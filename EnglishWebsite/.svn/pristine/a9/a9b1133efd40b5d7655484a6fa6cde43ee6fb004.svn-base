@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Indoor positioning solutions</title>
+  <link rel="stylesheet" href="../assets/css/amazeui.css" />
+  <link rel="stylesheet" href="../assets/css/common.min.css" />
+  <link rel="stylesheet" href="../assets/css/example.min.css" />
+</head>
+<body>
+  <div class="layout">
+    <!--===========layout-header================-->
+  <div class="layout-header am-hide-sm-only">
+      <!--topbar start-->
+      <div class="topbar">
+        <div class="container">
+          <div class="am-g">
+            <div class="am-u-md-3">
+              <div class="topbar-left">
+                <i class="am-icon-globe"></i>
+                <div class="am-dropdown" data-am-dropdown>
+                  <button class="am-btn am-btn-primary am-dropdown-toggle" data-am-dropdown-toggle>Language <span class="am-icon-caret-down"></span></button>
+                  <ul class="am-dropdown-content">
+                    <li><a href="#">English</a></li>
+                    <li class="am-divider"></li>
+                    <li><a href="http://www.intmote.com">Chinese</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="am-u-md-9">
+              <div class="topbar-right am-text-right am-fr">
+                Follow us
+                <i class="am-icon-facebook"></i>
+                <i class="am-icon-twitter"></i>
+                <i class="am-icon-google-plus"></i>
+                <i class="am-icon-pinterest"></i>
+                <i class="am-icon-instagram"></i>
+                <i class="am-icon-linkedin"></i>
+                <i class="am-icon-youtube-play"></i>
+                <i class="am-icon-rss"></i>
+                <!--<a href="./login.html">登录</a>
+                <a href="./register.html">注册</a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--topbar end-->
+
+      <div class="header-box" data-am-sticky>
+        <!--header start-->
+          <div class="container">
+            <div class="header">
+              <div class="am-g">
+                <div class="am-u-lg-2 am-u-sm-12">
+                  <div class="logo">
+                    <a href=""><img src="../assets/images/logo.png" alt="" /></a>
+                  </div>
+                </div>
+                <div class="am-u-md-10">
+                  <div class="header-right am-fr">
+                    <div class="header-contact">
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-phone"></i>
+  												<strong>021-64361545</strong>
+  												<span>Monday ~ Friday, 9:00-18:00</span>
+  											</div>
+  										</div>
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-envelope-o"></i>
+  												<strong>mote_hr@intmote.com</strong>
+  												<span>Your letter is welcome at any time!</span>
+  											</div>
+  										</div>
+                      <div class="header_contacts--item">
+  											<div class="contact_mini">
+  												<i style="color:#7c6aa6" class="contact-icon am-icon-map-marker"></i>
+  												<strong>everbright exhibition</strong>
+  												<span>Xuhui district cao bao road</span>
+  											</div>
+  										</div>
+                    </div>
+                    <a href="" class="contact-btn">
+                      <button type="button" class="am-btn am-btn-secondary am-radius">Contact us</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--header end-->
+
+
+        <!--nav start-->
+        <div class="nav-contain">
+          <div class="nav-inner">
+            <ul class="am-nav am-nav-pills am-nav-justify">
+              <li class=""><a href="../index.html">Home page</a></li>
+              <li>
+                <a href="./product1.html">Product center</a>
+                <!-- sub-menu start-->
+                <ul class="sub-menu">
+									<!--<li class="menu-item"><a href="">Product display 1</a></li>-->
+									
+								</ul>
+                <!-- sub-menu end-->
+              </li>
+              <li><a href="./example.html">Customer case</a></li>
+              <li><a href="./solution.html">Solution</a></li>
+              <li>
+                <a href="./news.html">News center</a>
+                <!-- sub-menu start-->
+               
+                <!-- sub-menu end-->
+              </li>
+              <li><a href="./about.html">About us</a></li>
+              <li><a href="./join.html">Join us</a></li>
+              <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--nav end-->
+      </div>
+
+    </div>
+    
+    
+    <!--mobile header start-->
+   <div class="m-header">
+      <div class="am-g am-show-sm-only">
+        <div class="am-u-sm-2">
+          <div class="menu-bars">
+            <a href="#doc-oc-demo1" data-am-offcanvas="{effect: 'push'}"><i class="am-menu-toggle-icon am-icon-bars"></i></a>
+            <!-- 侧边栏内容 -->
+            <nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas >
+              <a href="javascript: void(0)" class="am-menu-toggle"></a>
+
+              <div class="am-offcanvas" >
+                <div class="am-offcanvas-bar">
+                  <ul class="am-menu-nav am-avg-sm-1">
+                    <li><a href="../index.html" class="" >Home page</a></li>
+                    <li class="">
+                      <a href="./product1.html" class="" >Product center</a>
+                      <ul class="am-menu-sub am-collapse ">
+                        <!--<li class="">
+                          <a href="" class="" >Product display 1</a>
+                        </li>-->
+                      
+                      </ul>
+                    </li>
+                    <li class=""><a href="./example.html" class="" >Customer case</a></li>
+                    <li class=""><a href="./solution.html" class="" >Solution</a></li>
+                    <li class="">
+                      <a href="./news.html" class="" >News center</a>
+                     
+                    </li>
+                    <li class=""><a href="./about.html" class="" >About us</a></li>
+                    <li class=""><a href="./join.html" class="" >Join us</a></li>
+                    <li class=""><a href="./contact.html" class="" >Contact us</a></li>
+                    <li class="am-parent">
+                      <a href="./news.html" class="nav-icon nav-icon-globe" >Language</a>
+                      <ul class="am-menu-sub am-collapse  ">
+                        <li>
+                          <a href="#" >English</a>
+                        </li>
+                        <li class="">
+                          <a href="http://www.intmote.com" >Chinese</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-share-contain">
+                      <div class="nav-share-links">
+                        <i class="am-icon-facebook"></i>
+                        <i class="am-icon-twitter"></i>
+                        <i class="am-icon-google-plus"></i>
+                        <i class="am-icon-pinterest"></i>
+                        <i class="am-icon-instagram"></i>
+                        <i class="am-icon-linkedin"></i>
+                        <i class="am-icon-youtube-play"></i>
+                        <i class="am-icon-rss"></i>
+                      </div>
+                    </li>
+                   
+                  </ul>
+
+                </div>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+        <div class="am-u-sm-5 am-u-end">
+          <div class="m-logo">
+            <a href=""><img src="../assets/images/logo.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!--mobile header end-->
+    </div>
+
+
+
+
+
+    <!--===========layout-container================-->
+    <div class="layout-container">
+      <div class="page-header"  style="background: url(http://www.intmote.com/wp-content/themes/site/images/join-banner.jpg) no-repeat;">
+        <div class="am-container">
+          <h1 class="page-header-title" style="opacity: 0">Customer case </h1>
+        </div>
+      </div>
+
+      <div class="breadcrumb-box">
+        <div class="am-container">
+          <ol class="am-breadcrumb">
+            <li><a href="../index.html">Home page </a></li>
+            <li class="am-active">Customer case </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">Customer case </h2>
+					<p class="section--description">
+					Based on customer requirements, we have set up a localization plan for this project and have been greatly promoted in management. 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-g">
+              <li class="am-active am-u-md-2"><a href="#tab-4-1"><i class="am-icon-map-o"></i>Case of the scenic spot </a></li>
+              <li class="am-u-md-2"><a href="#tab-4-2"><i class="am-icon-scribd"></i>Campus case </a></li>
+              <li class="am-u-md-2"><a href="#tab-4-3"><i class="am-icon-odnoklassniki"></i>Nursing home cases</a></li>
+              <li class="am-u-md-2"><a href="#tab-4-4"><i class="am-icon-building-o"></i>Prison case </a></li>
+              <li class="am-u-md-2"><a href="#tab-4-5"><i class="am-icon-hand-scissors-o "></i>Tunnel case </a></li>
+              <li class="am-u-md-2"><a href="#tab-4-6"><i class="am-icon-camera"></i>Hospital case a></li>
+            </ul>
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!--景区案例-->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/419014.png" alt="">
+                     <span>了解更多></span>
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                    &nbsp; &nbsp; Wireless location based on wifi network management system, through advanced precise positioning technology, can be in the nursing home floor environment implemented the function of the location, monitoring, tracking, and can be combined with nursing management system, entrance guard system, implement YiKaShi floor electronic management. The location of the old man can be found in the background, and the service quality of the medical staff can be learned in time through the Internet. The health of the elderly can also be warned ahead of time <br />
+                    &nbsp; &nbsp;   According to the characteristics of tourist resources in guiyang scenic spot, we have developed a WIFI positioning scheme for this project to realize the rapid rise of smart scenic spots, so as to make the scenic spot improve greatly in management. 
+                   </div>
+                  
+                 </div>
+
+
+              
+
+                 
+              </div>
+              <div class="am-tab-panel" id="tab-4-2">
+                <div class="am-g">
+                  <div class="am-u-md-5">
+                    <a href="#" style="" class="example-item-bg"></a>
+                   <img src="http://www.intmote.com/wp-content/uploads/2017/04/xuexiao417.png" alt="">
+                    
+                  </div>
+                  
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                    &nbsp; &nbsp; Lloyds, based on the concept of wisdom campus, around the school, teachers, students, parents at the heart of the concern, to create the wisdom management as the core, safe campus as the guarantee, in a harmonious home school as a link, to quality for the development of the engine's wisdom campus overall solution. <br />
+                    &nbsp; &nbsp;  Hope all aspects of school management can improve ability by improving the informationization level our company management for the school to implement "lloyds ning" wisdom campus solutions, real-time positioning, a key for help, quick brush consumption, psychological testing, step 
+                   </div>
+                 
+                </div>
+
+               
+
+              
+              </div>
+              
+              
+              <div class="am-tab-panel" id="tab-4-3">
+                <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/419-1.png" alt="">
+                     
+                   </div>
+                   <div class="am-u-md-7">
+                     <!--<a href="#" style="background-image: url('../assets/images/example/example1.jpg');" class="example-item-bg"></a>
+                    <img src="../assets/images/example/logo_hx_active.png" alt="">-->
+                     <span></span>
+                     The nursing home is located in taicang, suzhou, jiangsu province. It covers an area of 50,000 square meters and covers an area of 80,000 square meters. For the special design of the aged friends, cultural entertainment, rehabilitation and fitness, leisure holiday as one of the multi-functional high-end living apartment, can accommodate 500 elderly people at the same time. 
+                   </div>
+                </div>
+
+                
+              </div>
+
+
+              <div class="am-tab-panel" id="tab-4-4">
+                <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/jianyu41901-1.png" alt="">
+                     <span>了解更多></span>
+                   </div>
+                   <div class="am-u-md-7">
+                     <!--<a href="#" style="background-image: url('../assets/images/example/example1.jpg');" class="example-item-bg"></a>
+                    <img src="../assets/images/example/logo_hx_active.png" alt="">-->
+                    
+                        A detention center in jiangsu province has been using our WIFI positioning system, this system specifically for prisons, detention, labor camps, compulsory rehabilitation centers, intellectual disabilities from care in areas such as design, based on WIFI positioning technology personnel and provide identification, naming, positioning and tracking of the system. 
+                   </div>
+                  
+                </div>
+              </div>
+
+              <div class="am-tab-panel" id="tab-4-5">
+                <div class="am-g">
+                  <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/platform_icon-1.png" alt="">
+                     
+                   </div>
+                   <div class="am-u-md-7">
+                     <!--<a href="#" style="background-image: url('../assets/images/example/example1.jpg');" class="example-item-bg"></a>
+                    <img src="../assets/images/example/logo_hx_active.png" alt="">-->
+                   
+                   As one of the earliest WIFI positioning suppliers in China, we adopt the most advanced real-time positioning technology, developed a real-time positioning system based on wireless local area network (wlan) of construction safety, for construction enterprise to provide a complete set of assets, personnel tracking localization solutions. 
+                   </div>
+                  
+                </div>
+              </div>
+
+              <div class="am-tab-panel" id="tab-4-6">
+                <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/418yiyuan.png" alt="">
+                     <span>了解更多></span>
+                   </div>
+                   <div class="am-u-md-7">
+                     <!--<a href="#" style="background-image: url('../assets/images/example/example1.jpg');" class="example-item-bg"></a>
+                    <img src="../assets/images/example/logo_hx_active.png" alt="">-->
+                    
+                  A hospital in jiangsu province has adopted our WIFI positioning system to provide comprehensive treatment services for patients. We also provide personnel and fixed asset management services for hospital management. 
+                   </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+<div class="section">
+      <div class="container">
+        <div class="section--header">
+					<h2 class="section--title">The logistics case </h2>
+					<p class="section--description">
+						Informatization, transparency and efficiency of goods, containers, vehicles and personnel management 
+						<br>
+					</p>
+				</div>
+
+        <div class="example-container">
+          <div class="am-tabs" data-am-tabs>
+           
+            
+            <!--下面的部分-->
+            <div class="am-tabs-bd am-tabs-bd-ofv">
+              <div class="am-tab-panel am-active" id="tab-4-1">
+              	<!--景区案例-->
+                 <div class="am-g">
+                   <div class="am-u-md-5">
+                     <a href="#" class="example-item-bg"></a>
+                    <img src="http://www.intmote.com/wp-content/uploads/2017/04/412900223-1.png" alt="">
+                     
+                   </div>
+                   <div class="am-u-md-7">
+                     
+                     <span></span>
+                    &nbsp; &nbsp; One logistics service, which has eight large storage areas in jiangsu province, has been set up for collection, storage, packaging and distribution. In order to improve and improve the quality and efficiency of logistics work, we have designed an intelligent logistics system based on wireless positioning. <br />
+                    &nbsp; &nbsp;   Optimize the operation process and improve the level of automation 
+                   </div>
+                  
+                 </div>
+
+
+              
+
+                 
+              </div>
+             
+              
+              
+              
+
+
+              
+
+              
+
+              
+            </div>
+            
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--===========layout-footer================-->
+ <div class="layout-footer">
+    <div class="footer">
+      <div style="background-color:#464646" class="footer--bg"></div>
+      <div class="footer--inner">
+        <div class="container">
+          <div class="footer_main">
+            <div class="am-g">
+              <div class="am-u-md-3 ">
+                <div class="footer_main--column">
+                  <strong class="footer_main--column_title">About us</strong>
+                  <div class="footer_about">
+                      <p class="footer_about--text">
+                        	Lloyds (Shanghai) Internet science and technology co., LTD., professional from things networking application solutions, and within the industry's leading WIFI positioning solution and the location data provider;
+                      </p>
+                      <p class="footer_about--text">
+                        Overseas, in a very short period of time by the government authorities and the international famous IT companies, industry recognition, has won many important qualifications to draw attention of the industry.
+                      </p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="am-u-md-3 ">
+                <div class="footer_main--column">
+                  <strong class="footer_main--column_title">product center</strong>
+                  <ul class="footer_navigation">
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycool smart bracelet</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anylink positioning system</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anyreal Indoor map</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycute The wireless AP and bluetooth</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycloud  Data analysis system</a></li>
+										  <li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Anycool Electronic tags</a></li>
+										</ul>
+                </div>
+              </div>
+
+              <div class="am-u-md-3 ">
+                  <div class="footer_main--column">
+										<strong class="footer_main--column_title">Technical support</strong>
+										<ul class="footer_navigation">
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Nursing home solutions</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Logistics solutions</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Solution of the scenic spot</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Market solutions</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Hospital solution</a></li>
+										</ul>
+									</div>
+                </div>
+                
+             <div class="am-u-md-3 ">
+                  <div class="footer_main--column">
+										<strong class="footer_main--column_title">Contact details</strong>
+										<ul class="footer_contact_info">
+											<li class="footer_contact_info--item"><i class="am-icon-phone"></i><span>Service special line： 021-64361545</span></li>
+											<li class="footer_contact_info--item"><i class="am-icon-envelope-o"></i><span>mote_hr@intmote.com</span></li>
+											<li class="footer_contact_info--item"><i class="am-icon-map-marker"></i><span>cao bao road, xuhui district, Shanghai everbright convention &exhibition center F, room 2201</span></li>
+											
+										</ul>
+									</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  <script src="../assets/js/jquery-2.1.0.js" charset="utf-8"></script>
+  <script src="../assets/js/amazeui.js" charset="utf-8"></script>
+  <script src="../assets/js/common.js" charset="utf-8"></script>
+</body>
+
+</html>
